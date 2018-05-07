@@ -1,0 +1,88 @@
+{
+  "deals": {
+    "hyvee": {
+      "name": "Hyvee Chinese",
+      "image": "/images/hyvee.png",
+      "desc": "1-entree meal for $3.99",
+      "expires": "Soon!",
+      "link": "https://www.hy-vee.com/"
+    },
+    "ajpizza": {
+      "name": "NY AJ's Pizzeria",
+      "image": "/images/ajpizza.png",
+      "desc": "1 free order of Garlic OR Dessert Knots w/any food purchase. One per person with coupon.",
+      "expires": "8/15/2018",
+      "link": "https://www.ajsnypizza.com/menu.html/"
+    },
+    "papajohns": {
+      "name": "Papa John's",
+      "image": "/images/papajohn.jpg",
+      "desc": "50% Off Pizzas After 9pm PROMO CODE: 9LATE50 & Large 1 Topping Pizza for $6.99 PROMO CODE: 699KST",
+      "expires": "5/30/2018",
+      "link": "https://www.papajohns.com"
+    },
+    "popeyes": {
+      "name": "Popeye's",
+      "image": "/images/popeye.png",
+      "desc": "$5 student entree basket",
+      "expires": "Soon!",
+      "link": "https://www.popeyes.com"
+    },
+    "qdoba": {
+      "name": "Qdoba",
+      "image": "/images/qdoba.jpg",
+      "desc": "Free drink with entree purchase",
+      "expires": "Soon!",
+      "link": "https://www.qdoba.com"
+    },
+    "vista": {
+      "name": "Vista Drive-In",
+      "image": "/images/vista.png",
+      "desc": "$1 off any combo (limit 4 discounts per coupon)",
+      "expires": "8/15/2018",
+      "link": "https://www.vistadrivein.com"
+    },
+    "bluemoose": {
+      "name": "The Blue Moose",
+      "image": "/images/bluemoose.jpeg",
+      "desc": "Hummus and Fried Pickles for $4 during Happy Hour(4-6pm Monday-Friday)",
+      "expires": "Soon!",
+      "link": "https://www.thebluemoosebarandgrill.com"
+    },
+    "panera": {
+      "name": "Panera Bread",
+      "image": "/images/panera.png",
+      "desc": "50% off Online Orders with Delivery PROMO: UATCFD",
+      "expires": "Soon!",
+      "link": "https://www.panerabread.com"
+    },
+    "olivegarden":{
+      "name": "Olive Garden",
+      "image": "/images/olivegarden.jpg",
+      "desc": "$5 off any TOGO order of #30 or more PROMO: 5TOGO",
+      "expires": "Never!",
+      "link":"https://wwww.olivegarden.com"
+    },
+    "papamurphys":{
+      "name": "Papa Murphy's",
+      "image": "/images/papamurphy.png",
+      "desc": "Get 25% off regular price menu items order of $20 or more. Limit 3.",
+      "expires": "Never!",
+      "link":"https://www.papamurphys.com"
+    },
+    "wingstop":{
+      "name": "Wingstop",
+      "image": "/images/wingstop.jpg",
+      "desc": "Get a free large order of Fresh-Cut seasoned fries when you sign up with e-club",
+      "expires": "Never!",
+      "link":"http://www.wingstop.com/the-club/"
+    },
+    "pizzahut":{
+      "name": "Pizza Hut",
+      "image": "/images/pizzahut.png",
+      "desc": "Large 2-Topping Pizza for $7.99 PROMO: 7",
+      "expires": "Soon!",
+      "link":"https://pizzahut.com"
+    }
+  }
+}

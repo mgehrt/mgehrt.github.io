@@ -1,0 +1,227 @@
+<!doctype html>
+
+<html>
+<!-- <head> tag contains metadata, styling links and the title.
+TITLE needs to be changed to whatever our site is actually called -->
+<head>
+  <title>Powercat Prices</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css"/>
+</head>
+
+
+<!-- body will hold all of the stuff in our main page -->
+<body>
+
+  <!-- everything within the "header-container" will be at the top of the page so that will
+  have our logo, navgation bar etc. -->
+  <div id="header-container">
+    <div class="jumbotron">
+      <img class="img-fluid" src="\images\pp.png" alt="Banner" width="500px">
+      <p id ="subheader-font">Providing Deals & Discounts to Students on a Budget in the Manhattan, KS Community!</p>
+    </div>
+    <nav class="navbar navbar-fixed-top navbar-toggleable-md navbar-light bg-light">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Deals & Discounts</a>
+      <div class="collapse navbar-collapse pull-right" id="navbarNav">
+        <ul class="navbar-nav mr-auto navbar-right">
+          <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="eats&treats" class="nav-link">Eats & Treats</a></li>
+          <li class="nav-item"><a href="cheers&beers" class="nav-link">Cheers & Beers</a></li>
+          <li class="nav-item"><a href="treatyoself" class="nav-link">Treat Yo Self</a></li>
+          <li class="nav-item"><a href="submitadeal" class="nav-link">Submit a Deal</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="card-container">
+    <!-- This is where we load all of the deals using a JS function to fill in the cards with information -->
+    <div class="row" id="row-adj">
+      <div class="col-3">
+        <div class="card" style="width: 100% height: 100%">
+          <img class="card-img-top" src="\images\hyvee.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Hyvee Chinese</h5>
+              <p id="card-description" class="card-text">1-entree meal for $3.99</p>
+              <label for="card-expiration" id="expiration-label">Expires: </label>
+              <p name="card-expiration" id="card-expiration">Never!</P>
+                <a href="https://www.hy-vee.com/" target="_blank "id="card-btn" class="btn btn-primary">Visit: hyvee.com</a>
+              </div>
+            </div>
+          </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 100% height: 100%">
+          <img class="card-img-top" src="\images\ajpizza.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">NY AJ's Pizzeria</h5>
+              <p id="card-description" class="card-text">1 free order of Garlic OR Dessert Knots w/any food purchase. One per person with coupon.</p>
+              <label for="card-expiration" id="expiration-label">Expires: </label>
+              <p name="card-expiration" id="card-expiration">8/15/2018</P>
+                <a href="http://www.ajsnypizza.com/menu.html" target="_blank "id="card-btn" class="btn btn-primary">Visit: ajsnypizza.com</a>
+              </div>
+            </div>
+          </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 100% height: 100%">
+          <img class="card-img-top" src="\images\papajohn.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Papa John's</h5>
+              <p id="card-description" class="card-text" style="font-size: .875rem">50% Off Pizzas After 9pm PROMO CODE: 9LATE50 & Large 1 Topping Pizza for $6.99 PROMO CODE: 699KST</p>
+              <label for="card-expiration" id="expiration-label">Expires: </label>
+              <p name="card-expiration" id="card-expiration">5/30/2018</P>
+                <a href="https://papajohns.com" target="_blank "id="card-btn" class="btn btn-primary">Visit: papajohns.com</a>
+              </div>
+            </div>
+          </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="\images\popeye.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Popeye's</h5>
+              <p id="card-description" class="card-text">$5 student entree basket</p>
+              <label for="card-expiration" id="expiration-label">Expires: </label>
+              <p name="card-expiration" id="card-expiration">Never!</P>
+                <a href="https://popeyes.com" target="_blank "id="card-btn" class="btn btn-primary">Visit: popeyes.com</a>
+              </div>
+            </div>
+          </div>
+    </div>
+                    <!-- ROW 2 -->
+      <div class="row" id="row-adj">
+        <div class="col-3">
+          <div class="card" style="width: 100% height: 100%">
+            <img class="card-img-top" src="\images\qdoba.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Qdoba</h5>
+                <p id="card-description" class="card-text">Free drink with entree purchase</p>
+                <label for="card-expiration" id="expiration-label">Expires: </label>
+                <p name="card-expiration" id="card-expiration">Never!</P>
+                  <a href="https://www.qdoba.com/" target="_blank "id="card-btn" class="btn btn-primary">Visit: qdoba.com</a>
+                </div>
+              </div>
+            </div>
+
+        <div class="col-3">
+          <div class="card" style="width: 100% height: 100%">
+            <img class="card-img-top" src="\images\vista.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">VIsta Drive-In</h5>
+                <p id="card-description" class="card-text">$1 off any combo (limit 4 discounts per coupon)</p>
+                <label for="card-expiration" id="expiration-label">Expires: </label>
+                <p name="card-expiration" id="card-expiration">8/15/2018</P>
+                  <a href="http://www.vistadrivein.com" target="_blank "id="card-btn" class="btn btn-primary">Visit: vistadrivein.com</a>
+                </div>
+              </div>
+            </div>
+
+        <div class="col-3">
+          <div class="card" style="width: 100% height: 100%">
+            <img class="card-img-top" src="\images\bluemoose.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Blue Moose</h5>
+                <p id="card-description" class="card-text">Hummus and Fried Pickles for $4 during Happy Hour(4-6pm Monday-Friday)</p>
+                <label for="card-expiration" id="expiration-label">Expires: </label>
+                <p name="card-expiration" id="card-expiration">Never!</P>
+                  <a href="https://thebluemoosebarandgrill.com" target="_blank "id="card-btn" class="btn btn-primary">Visit: thebluemoose.com</a>
+                </div>
+              </div>
+            </div>
+
+        <div class="col-3">
+          <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="\images\panera.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Panera Bread</h5>
+                <p id="card-description" class="card-text">50% off Online Orders with Delivery PROMO: UATCFD</p>
+                <label for="card-expiration" id="expiration-label">Expires: </label>
+                <p name="card-expiration" id="card-expiration">Never!</P>
+                  <a href="https://panerabread.com" target="_blank "id="card-btn" class="btn btn-primary">Visit: panerabread.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!-- ROW 3 -->
+    <div class="row" id="row-adj">
+      <div class="col-3">
+        <div class="card" style="width: 100% height: 100%">
+          <img class="card-img-top" src="\images\olivegarden.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Olive Garden</h5>
+              <p id="card-description" class="card-text">$5 off any TOGO order of #30 or more PROMO: 5TOGO</p>
+              <label for="card-expiration" id="expiration-label">Expires: </label>
+              <p name="card-expiration" id="card-expiration">Never!</P>
+                <a href="https://www.olivegarden.com/" target="_blank "id="card-btn" class="btn btn-primary">Visit: olivegarden.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card" style="width: 100% height: 100%">
+              <img class="card-img-top" src="\images\papamurphy.png" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Papa Murphy's</h5>
+                  <p id="card-description" class="card-text">Get 25% off regular price menu items order of $20 or more. Limit 3.</p>
+                  <label for="card-expiration" id="expiration-label">Expires: </label>
+                  <p name="card-expiration" id="card-expiration">Never!</p>
+                    <a href="http://www.papamurphys.com" target="_blank "id="card-btn" class="btn btn-primary">Visit: papamurphys.com</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card" style="width: 100% height: 100%">
+                  <img class="card-img-top" src="\images\wingstop.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Wing Stop</h5>
+                      <p id="card-description" class="card-text">Get a free large order of Fresh-Cut seasoned fries when you sign up with e-club</p>
+                      <label for="card-expiration" id="expiration-label">Expires: </label>
+                      <p name="card-expiration" id="card-expiration">Never!</P>
+                        <a href="http://www.wingstop.com/the-club/" target="_blank "id="card-btn" class="btn btn-primary">Visit: wingstop.com</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-3">
+                    <div class="card" style="width: 100%;">
+                      <img class="card-img-top" src="\images\pizzahut.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Pizza Hut</h5>
+                          <p id="card-description" class="card-text">Large 2-Topping Pizza for $7.99 PROMO: 7Z</p>
+                          <label for="card-expiration" id="expiration-label">Expires: </label>
+                          <p name="card-expiration" id="card-expiration">Soon!</P>
+                            <a href="https://pizzahut.com" target="_blank "id="card-btn" class="btn btn-primary">Visit: pizzahut.com</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+<!-- everything within the "footer-container" will be at the bottom of the page and will be fairly generic -->
+<footer>
+  <div class="container-fluid" id="footer-nav">
+    <p>
+      Mitch Gehrt, Garrett Blehm, Olivia Baalman &copy;
+      2018
+      All Rights Reserved
+    </p>
+  </div>
+</footer>
+
+
+<!-- Dont touch these, they load jQuery, Popper and Tether js libraries into our site so BS4 works -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"/>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"/>
+<script src=".\bootstrap-4.0.0-alpha.6-dist\js\bootstrap.min.js"/>
+
+</body>
+
+</html>

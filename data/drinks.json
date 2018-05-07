@@ -1,0 +1,67 @@
+{
+    "deals": {
+      "houlihans": {
+        "name": "Houlihan's",
+        "image": "/images/houlihans.jpg",
+        "desc": "Tuesdays: 1/2 price bottle of wine all day.",
+        "expires": "Soon!",
+        "link": "https://www.houlihans.com/my-houlihans/manhattan"
+      },
+      "johnnykaws": {
+        "name": "Johnny Kaws",
+        "image": "/images/johnnykaws.png",
+        "desc": "Thursdays: 25 cent wells from 10-11 PM and 50 cent wells the rest of night.",
+        "expires": "Soon!",
+        "link": "https://www.johnnykaws.com/"
+      },
+      "tubbys": {
+        "name": "Tubby's Sports Bar",
+        "image": "/images/tubbys.jpg",
+        "desc": "Thursdays:  50 cents wells all night.",
+        "expires": "Soon!",
+        "link": "https://www.tubbyssportsbar.com/"
+      },
+      "saltyrim": {
+        "name": "Salty Rim's",
+        "image": "/images/saltyrim.png",
+        "desc": "$4 pitchers on Tuesdays",
+        "expires": "Soon!",
+        "link": "http://www.aggieville.org/the-salty-rim"
+      },
+      "gordos": {
+        "name": "Gordo's",
+        "image": "/images/gordos.jpg",
+        "desc": "1/2 Price Margs on Monday",
+        "expires": "Soon!",
+        "link": "https://www.facebook.com/GordosRestauranteMexicano/"
+      },
+      "omalleys": {
+        "name": "O'Malley's Alley",
+        "image": "/images/omalleys.jpg",
+        "desc": "Tuesdays: $2 U Call Its",
+        "expires": "Soon!",
+        "link": "https://www.facebook.com/OMalleysAggieville/"
+      },
+      "1863": {
+        "name": "Eighteen63",
+        "image": "/images/1863.jpeg",
+        "desc": "Mondays: 50 cent tequila shots; Thursdays: $1 double wells",
+        "expires": "Soon!",
+        "link": "http://eighteen63.com/"
+      },
+      "cocobolos": {
+        "name": "Coco Bolos",
+        "image": "/images/cocobolos.jpg",
+        "desc": "Wednesdays: $5 sangria carafes",
+        "expires": "Soon!",
+        "link": "http://www.cocobolos.com/"
+      },
+      "porters":{
+        "name": "Porter's",
+        "image": "/images/porters.png",
+        "desc": "Mondays: $6.50 Pitcher & Nachos",
+        "expires": "Never!",
+        "link":"https://www.facebook.com/PortersAggieville/"
+      }
+    }
+  }

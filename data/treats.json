@@ -1,0 +1,27 @@
+{
+    "deals": {
+      "genesis": {
+        "name": "Genesis Health Club",
+        "image": "/images/genesis.png",
+        "desc": "Free 10 day pass for new members",
+        "expires": "Soon!",
+        "link": "https://www.genesishealthclubs.com/"
+      },
+      "nutritionzone": {
+        "name": "Nutrition Zone",
+        "image": "/images/nutritionzone.png",
+        "desc": "$5 off purchases over $49. $10 off purchases over $99",
+        "expires": "8/15/2018",
+        "link": "https://www.nutritionzoneusa.com/"
+      },
+      "planetbeach": {
+        "name": "Planet Beach",
+        "image": "/images/planetbeach.jpg",
+        "desc": "One Month Unlimited Spa Services and UV Tanning",
+        "expires": "8/15/2018",
+        "link": "http://www.planetbeach-manhattanks.com/"
+      }
+    }
+  }
+    
+    
